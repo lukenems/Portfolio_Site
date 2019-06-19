@@ -33,6 +33,57 @@ img{
 /*End global*/
 
 /*Start reusable*/
+
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.section-heading{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.section-heading h1 {
+    font-size: 3.5rem;
+    color: rgba(255,255,255, .3);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.section-heading h1::before,
+.section-heading h1::after {
+   content: '';
+   position: absolute;
+   bottom: -.5rem;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: rgba(255,255,255, .75);
+}
+
+.section-heading h1::before{
+    width: 10rem;
+    height: 3px;
+    border-radius: .8rem;
+}
+
+.section-heading h6::after{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -1rem;
+}
+
+.section-heading h6 {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
 /*End reusable*/
 
 /*Start header*/
@@ -210,7 +261,7 @@ li{
     opacity: .3;
 }
 
-.portfolio-img{
+.profile-img{
     flex: 1;
     margin-right: 5rem;
 }
@@ -218,6 +269,28 @@ li{
 .about-details{
     flex: 1;
 }
+
+/*Social Media Icons*/
+
+/* .social-media{
+    margin-top: 5rem;
+}
+
+.social-media i{
+    font-size: 5rem;
+    transition: color 650ms;
+}
+ 
+.fa-twitter-square:hover{
+    color: #4267b2;
+}
+
+.fa-instagram-square:hover{
+    color: #4267b2;
+} */
+
+/*end Social Media Icons*/
+
 /*End about*/
 
 /*Start services*/
@@ -232,6 +305,10 @@ li{
 
 .portfolio-item{
     display: flex;
+}
+
+.portfolio-item .first{
+    flex-direction: row-reverse;
 }
 
 /* .portfolio-img img{
