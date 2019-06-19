@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
+    <header id='header'>
         <div onclick="menuToggle()" class="menu-toggler menu-drop">
             <div class="bar half start"></div>
             <div class="bar"></div>
@@ -176,10 +176,12 @@
     </section>
 
     <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-        </div>
-        <p>&copy; 2019 Luke Nemy</p>
+        <a href="#header">
+            <div class="up" id="up">
+                <i class="fas fa-chevron-up scroll" href="#header"></i>
+            </div>
+        </a>
+        <p class="footer-name">Luke Nemy</p><p>&copy; 2019</p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
