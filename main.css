@@ -63,7 +63,7 @@ img{
    bottom: -.5rem;
    left: 50%;
    transform: translateX(-50%);
-   background-color: rgba(255,255,255, .75);
+   background-color: rgba(255,255,255, 1);
 }
 
 .section-heading h1::before{
@@ -72,7 +72,7 @@ img{
     border-radius: .8rem;
 }
 
-.section-heading h6::after{
+.section-heading h1::after{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
@@ -82,6 +82,10 @@ img{
 .section-heading h6 {
     font-size: 1.6rem;
     font-weight: 300;
+}
+
+.has-margin-right{
+    margin-right: 5rem;
 }
 
 /*End reusable*/
@@ -253,12 +257,14 @@ li{
 .about-heading h1{
     font-size: 10rem;
     opacity: .3;
+    font-weight: 300;
 
 }
 
 .about-heading h6{
     font-size: 2rem;
     opacity: .3;
+    font-weight: 200;
 }
 
 .profile-img{
@@ -294,10 +300,14 @@ li{
 /*End about*/
 
 /*Start services*/
+
+
+
+
 /*End services*/
 
 /*Start portfolio*/
-.section-heading{
+/* .section-heading{
     display: flex;
     flex-basis: 25%;
     margin-left: 50px;
@@ -309,7 +319,35 @@ li{
 
 .portfolio-item .first{
     flex-direction: row-reverse;
+} */
+
+.portfolio-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
 }
+
+.portfolio-item:last-child{
+    margin-bottom: 0;
+}
+
+.profile-img{
+    flex:1;
+}
+
+.portfolio-description{
+    flex:1;
+}
+
+.portfolio-description h6 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+
+}
+
 
 /* .portfolio-img img{
     height: 300px;
