@@ -1,0 +1,8 @@
+{
+    "name": "Portfolio_Site",
+    "description": "My personal portfolio site",
+    "version": "1.0.0",
+    "engines": {
+      "node": "12.4.0"
+    }
+  }
