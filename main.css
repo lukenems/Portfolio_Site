@@ -585,7 +585,7 @@ input[type="submit"]:hover{
     }
 
     .portfolio-img{
-        margin: 0 0 2rem 0;
+        margin: 2rem 0 0 0;
         order: 1;
     }
 
