@@ -1,8 +1,22 @@
 {
-    "name": "Portfolio_Site",
-    "description": "My personal portfolio site",
-    "version": "1.0.0",
-    "engines": {
-      "node": "12.4.0"
-    }
-  }
+  "name": "portfolio_site",
+  "description": "My personal portfolio site",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.4.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukenems/Portfolio_Site.git"
+  },
+  "author": "Luke Nemy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukenems/Portfolio_Site/issues"
+  },
+  "homepage": "https://github.com/lukenems/Portfolio_Site#readme"
+}
