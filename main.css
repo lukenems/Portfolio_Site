@@ -550,6 +550,14 @@ input[type="submit"]:hover{
         left: -5.9rem;
     }
     */
+    
+    .profile-img {
+        max-width: 100%;
+    }
+
+    .portfolio-img {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -577,7 +585,7 @@ input[type="submit"]:hover{
 
     .profile-img{
         margin: 0 0 7rem 0;
-
+        max-width: 100%;
     }
 
     .portfolio-item{
