@@ -588,6 +588,10 @@ input[type="submit"]:hover{
         max-width: 100%;
     }
 
+    .intro{
+        text-align: center;
+    }
+
     .portfolio-item{
         flex-direction: column;
     }
