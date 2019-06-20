@@ -5,7 +5,7 @@
   "engines": {
     "node": "12.4.0"
   },
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
     "test": "test"
   },
