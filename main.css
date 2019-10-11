@@ -291,6 +291,12 @@ li{
     flex: 1;
 }
 
+.about-details #about-skills {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 7px 0 7px 50px;
+}
+
 /*End about*/
 
 /*Social Media Icons*/
@@ -318,6 +324,7 @@ li{
 
 
 /*Start PORTFOLIO*/
+
 /* .section-heading{
     display: flex;
     flex-basis: 25%;
