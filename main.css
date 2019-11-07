@@ -243,6 +243,9 @@ li {
 .landing-text h6 {
     font-size: 1.5rem;
     font-weight: 200;
+    margin: auto;
+    width: fit-content;
+    background-color: #eee;
 }
 
 /*End header*/
