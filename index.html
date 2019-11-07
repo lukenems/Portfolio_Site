@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Luke Nemy</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <header id='header'>
         <div onclick="menuToggle()" class="menu-toggler menu-drop">
@@ -38,7 +44,7 @@
         </nav>
         <div class="landing-text">
             <h1>Luke Nemy</h1>
-            <h6>Wordpress Freelance | JS Full Stack Web Developer</h6>
+            <h6>JS Front-End / Full Stack Web Developer</h6>
         </div>
     </header>
 
@@ -53,13 +59,15 @@
                     <h6>Myself</h6>
                 </div>
                 <h2 class="intro">Hello!</h2>
-                <p class="intro">Currently enrolled as a student at Rithm School in San Francisco,Ca for Full Stack Web Development in:</p>
-                    <ul id="about-skills">
-                        <li>Node w/ Express, Nunjuks, JQuery</li>
-                        <li>React w/ React-Redux, React-Router and Context</li>
-                        <li>Python 3 w/ SQL Alchemy, WT-Forms and Jinja</li>
-                        <li>PosgreSQL, AJAX, JWT, Bcrypt</li>
-                    </ul> 
+                <p class="intro">Graduate student from Rithm School in San Francisco,Ca for Full Stack Web Development
+                    in:</p>
+                <ul id="about-skills">
+                    <li>Node w/ Express, Nunjuks, JQuery, Axios</li>
+                    <li>React w/ React-Redux, React-Router and Context</li>
+                    <li>Python 3 w/ SQL Alchemy, WT-Forms and Jinja</li>
+                    <li>Ruby w/ Rails 5, React-Rails</li>
+                    <li>PosgreSQL, AJAX, JWT, Bcrypt, Google Maps API</li>
+                </ul>
                 <p>I also build websites in Wordpress</p>
             </div>
             <!-- <div class="social-media">
@@ -120,7 +128,6 @@
         <div class="container">
             <div class="section-heading">
                 <h1>Portfolio</h1>
-                <h6>My Recent Projects</h6>
             </div>
             <div class="portfolio-item">
                 <div class="portfolio-img has-margin-right">
@@ -159,29 +166,24 @@
     </section>
 
     <div class="container">
-            <div class="section-heading">
-                <h1>Resume</h1>
-                <a href="CurrentResume.pdf"><h6>Click to download</h6></a>
-            </div>
+        <div class="section-heading">
+            <h1>Resume</h1>
+            <a href="Resume_11-7.pdf">
+                <h6>Click to download</h6>
+            </a>
+        </div>
     </div>
 
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-heading">
                 <h1>Contact</h1>
-                <h6>Let's work together</h6>
             </div>
-            <form name ="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="What's your name?" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="What's your email?" required>
-                <label for="service">Services:</label>
-                <select name="services" id="services">
-                    <option value="">Web Design</option>
-                    <option value="">Wordpress Development</option>
-                    <option value="">Fullstack JS Development</option>
-                </select>
                 <label for="subject">Subject:</label>
                 <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
                 <input type="submit" value="Submit">
@@ -195,8 +197,10 @@
                 <i class="fas fa-chevron-up scroll" href="#header"></i>
             </div>
         </a>
-        <p class="footer-name">Luke Nemy</p><p>&copy; 2019</p>
+        <p class="footer-name">Luke Nemy</p>
+        <p>&copy; 2019</p>
     </footer>
     <script src="main.js"></script>
 </body>
+
 </html>
