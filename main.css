@@ -402,17 +402,52 @@ li {
 
 /*End services*/
 
+/*Start Git-Hub projects*/
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.projects .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#github {
+    align-self: center;
+}
+
+#github img {
+    width: fit-content;
+}
+/*End Git-Hub projects*/
+
 /*Start Resume*/
 .section-heading a h6 {
     font-size: 3rem;
     width: fit-content;
     margin: auto;
     border: 2px solid #000;
-    border-radius: 40%;
-    padding: 2rem;
+    border-radius: 30px;
+    padding: 1rem;
     background: #eee;
     margin-top: 2rem;
 }
+
+.project-item h1{
+    width: fit-content;
+    background: #eee;
+    padding: .5rem;
+}
+
 
 /*End Resume*/
 
@@ -646,6 +681,10 @@ input[type="submit"]:hover {
     .portfolio-description {
         margin: 0;
         order: 2;
+    }
+
+    .project-list {
+        flex-direction: column;
     }
 
     /* Timeline attributes 
