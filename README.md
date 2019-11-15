@@ -1,5 +1,3 @@
-# Portfolio_Site
-Portfolio site for Rithm School Onboarding
+# Portfolio Site
 
-
-# Visit my site here: https://luke-nemy.netlify.com/
+# Visit my site here! : https://luke-nemy.netlify.com/
