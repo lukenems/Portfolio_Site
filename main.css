@@ -333,11 +333,6 @@ li {
 } */
 /*end Social Media Icons*/
 
-
-/*Start SERVICES*/
-/*End services*/
-
-
 /*Start PORTFOLIO*/
 
 /* .section-heading{
@@ -400,9 +395,17 @@ li {
     color: #ffe838;
 }
 
-/*End services*/
+/*End Portfolio*/
 
 /*Start Git-Hub projects*/
+.section-heading h2 {
+    margin: 2rem auto auto auto;
+    width: fit-content;
+    background: #eee;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -411,9 +414,16 @@ li {
 
 .project-item {
     display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
+}
+
+.project-item h1{
+    width: fit-content;
+    background: #eee;
+    padding: .5rem;
+    font-size: 2rem;
 }
 
 .projects .container {
@@ -422,12 +432,24 @@ li {
 }
 
 #github {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#github a {
     align-self: center;
 }
 
-#github img {
+#github a img {
     width: fit-content;
 }
+
+#github-logo:hover {
+    background-color: #ab68f7;
+    border-radius: 50%;
+}
+
 /*End Git-Hub projects*/
 
 /*Start Resume*/
@@ -441,18 +463,7 @@ li {
     background: #eee;
     margin-top: 2rem;
 }
-
-.project-item h1{
-    width: fit-content;
-    background: #eee;
-    padding: .5rem;
-}
-
-
 /*End Resume*/
-
-/*Start timeline*/
-/*End timeline*/
 
 /*Start contact*/
 
@@ -493,8 +504,6 @@ input[type="submit"]:hover {
     color: #221e3f;
     background-color: #ffe838;
 }
-
-
 /*End contact*/
 
 /*Start footer*/
@@ -596,37 +605,6 @@ input[type="submit"]:hover {
         font-size: 3rem;
     }
 
-    /* Timeline attributes 
-    .about-details .nav-list{
-        flex-direction: initial;
-    }
-
-    .about-details li{
-        margin: 0 2rem;
-    }
-
-    .icon-container{
-        width: 7rem;
-        height: 7rem;
-    }
-
-    icon-container i{
-        font-size: 4rem; 
-    }    
-
-    .timeline ul{
-        margin: 0 0 0 auto;
-    }
-
-    .timeline .date::before{
-        left: -20rem;
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
-    }
-    */
-
     .profile-img {
         max-width: 100%;
     }
@@ -687,15 +665,6 @@ input[type="submit"]:hover {
         flex-direction: column;
     }
 
-    /* Timeline attributes 
-    .timeline p{
-        fontsize: 1.6rem
-    }
-
-    .timeline .date::before{
-        font-size: 1.4rem;
-    } */
-
     form {
         width: 100%;
     }
@@ -703,7 +672,6 @@ input[type="submit"]:hover {
     .up {
         right: 2rem;
     }
-
 
 }
 
