@@ -315,14 +315,19 @@ li {
 /*End about*/
 
 /*Social Media Icons*/
-/* .social-media{
-    margin-top: 5rem;
+
+.social-media{
+    text-align: center;
+    width: fit-content;
+    margin: 3rem auto 0 auto;
+    
 }
 
 .social-media i{
     font-size: 5rem;
     transition: color 650ms;
 }
+/*
  
 .fa-twitter-square:hover{
     color: #4267b2;
@@ -331,6 +336,7 @@ li {
 .fa-instagram-square:hover{
     color: #4267b2;
 } */
+
 /*end Social Media Icons*/
 
 /*Start PORTFOLIO*/
