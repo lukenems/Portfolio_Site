@@ -557,6 +557,7 @@ input[type="submit"]:hover {
 .copyright p {
     font-size: 1.4;
     display: inline-block;
+    color: white;
 }
 
 .footer-name {
