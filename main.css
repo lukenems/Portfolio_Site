@@ -237,15 +237,23 @@ li {
     -webkit-text-fill-color: transparent;
     padding: 1rem;
     user-select: none;
-
 }
 
-.landing-text h6 {
-    font-size: 1.5rem;
+.landing-text h2 {
+    font-size: 3rem;
     font-weight: 200;
     margin: auto;
     width: fit-content;
     background-color: #eee;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.landing-text h2:hover {
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 /*End header*/
@@ -306,11 +314,40 @@ li {
     background-color: #eee;
 }
 
-.about-details #about-skills {
+.skills-desc {
+    background-color: #eee;
+    margin: 40px auto;
+    padding: 10px 0;
+    text-align: center;
+    max-width: 120rem;
+}
+
+.skills-desc p {
+    padding: 10px;
+}
+
+.skills-desc #about-skills {
+    display: flex;
     font-size: 1.8rem;
     font-weight: 300;
-    padding: 7px 0 7px 50px;
+    padding: 7px 50px 7px 50px;
+    flex-wrap: wrap;
+    margin: -10px;
 }
+
+.skills-desc #about-skills>* {
+    flex: 1 1 160px;
+    margin: 10px;
+    font-family: 'Andale Mono', monospace;
+    font-size: 1em;
+    align-self: center;
+    padding: .5rem;
+}
+
+.skills-desc #about-skills>*:hover {
+    background-color: #ffff04c2;
+}
+
 
 /*End about*/
 
