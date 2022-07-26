@@ -245,15 +245,13 @@ li {
     margin: auto;
     width: fit-content;
     background-color: #eee;
-    border: solid 2px;
+    /* border: solid 5px; */
     border-radius: 50%;
     padding: 10px 20px;
 }
 
 .landing-text h2:hover {
-    background: linear-gradient(to top, #ffe838, #fd57bf);
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    /* background: linear-gradient(to top, #ffe838, #fd57bf); */
 }
 
 /*End header*/
@@ -415,6 +413,10 @@ li {
     flex: 1;
 }
 
+.portfolio-img img {
+    border: #000 solid 2px;
+}
+
 .portfolio-description {
     flex: 1;
     background-color: #eee;
@@ -482,6 +484,7 @@ li {
 }
 
 #github {
+    padding-top: 5rem;
     width: auto;
     display: flex;
     justify-content: center;
@@ -518,7 +521,7 @@ li {
 }
 
 #resume a h6:hover {
-    background-color: #ab68f7;
+    background-color: #ffff04;
 }
 /*End Resume*/
 
