@@ -711,7 +711,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 768px) {
     body {
-        background: url("images/sitebg2BW.png") no-repeat center fixed;
+        background: url("images/sitebg2BW_mobile.png") no-repeat center fixed;
         background-size: cover;
     }
 
@@ -743,12 +743,32 @@ input[type="submit"]:hover {
         font-size: 3rem;
     }
 
+    section {
+        padding: 3rem 0;
+    }
+
     .profile-img {
         max-width: 100%;
     }
 
     .portfolio-img {
         max-width: 100%;
+    }
+
+    .testimony-item {
+        flex-direction: column;
+    }
+
+    .testimony-img.has-margin-right {
+        margin-right: 0;
+    }
+
+    .testimony-img img {
+        width: 30%;
+    }
+
+    .testimony-description {
+        padding-top: 2em;
     }
 }
 
