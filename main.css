@@ -38,22 +38,22 @@ img {
 
 @font-face {
     font-family: 'The Historia Demo';
-    src: url(/TheHistoriaDemo.ttf) format("truetype");
+    src: url(/fonts/TheHistoriaDemo.ttf) format("truetype");
 }
 
 @font-face {
     font-family: 'Calvino';
-    src: url(/Calvino-Grande-Variable-trial\ copy.ttf) format("truetype");
+    src: url(/fonts/Calvino-Grande-Variable-trial\ copy.ttf) format("truetype");
 }
 
 @font-face {
     font-family: 'Catshop';
-    src: url(/CatShop.ttf) format("truetype");
+    src: url(/fonts/CatShop.ttf) format("truetype");
 }
 
 @font-face {
     font-family: 'Delamoore';
-    src: url(/Delamoore\ copy.ttf) format("truetype");
+    src: url(/fonts/Delamoore\ copy.ttf) format("truetype");
 }
 
 /*End global*/
