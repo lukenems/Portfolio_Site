@@ -267,9 +267,9 @@ li {
     padding: 10px 20px;
 }
 
-.landing-text h2:hover {
-    /* background: linear-gradient(to top, #ffe838, #fd57bf); */
-}
+/* .landing-text h2:hover {
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+} */
 
 /*End header*/
 
@@ -329,6 +329,16 @@ li {
 .about-details {
     flex: 1;
     background-color: #eee;
+}
+
+span.intro {
+    font-size: 1.8rem;
+    font-weight: 300;
+    vertical-align: top;
+}
+
+#alignable {
+    width: 120px;
 }
 
 .skills-desc {
