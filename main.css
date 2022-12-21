@@ -169,6 +169,7 @@ li {
 .nav-link:hover,
 .nav-link:focus {
     background: linear-gradient(to top, #ffe838, #fd57bf);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -249,6 +250,7 @@ li {
     font-size: 20rem;
     /* background: linear-gradient(to top, #ffe838, #fd57bf); */
     background: linear-gradient(to top, #000000, #686868);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -380,20 +382,20 @@ span.intro {
 
 /*Social Media Icons*/
 
-.social-media{
+.social-median{
     text-align: center;
     width: fit-content;
     margin: 3rem auto 0 auto;
     
 }
 
-.social-media i{
+.social-median i{
     font-size: 5rem;
     transition: color 650ms;
     color: #000
 }
 
-.social-media i:hover {
+.social-median i:hover {
     color: #ab68f7;
 
 }
@@ -691,6 +693,7 @@ input[type="submit"]:hover {
     font-size: 4rem;
     font-family: 'The Historia Demo', 'Roboto';
     background: linear-gradient(to top, #ffe838, #fd57bf);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
